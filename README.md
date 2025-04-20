@@ -1,7 +1,6 @@
 <h1 align="center">🦅 Electrum Ravencoin Wallet</h1>
 
 <p>
-  <img src="https://img.shields.io/badge/Forked%20From-Electrum--Doge-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Coin-Ravencoin-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Non--Custodial-Yes-brightgreen?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/HD%20Wallet-BIP32%2FBIP39-orange?style=for-the-badge"/>
