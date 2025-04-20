@@ -65,7 +65,7 @@ pytest
 ## 📜 License
 
 This project is licensed under the MIT License. See the full license here:  
-📄 [LICENSE](https://github.com/electrum-projects/electrum-ravencoin/blob/main/LICENSE)
+📄 [LICENSE]([https://github.com/electrum-projects/electrum-ravencoin/blob/main/LICENSE](https://github.com/electrum-projects/electrum-ravencoin/blob/master/LICENCE))
 
 ---
 
@@ -76,8 +76,7 @@ This project is licensed under the MIT License. See the full license here:
 - 💬 [Ravencoin Discord](https://discord.gg/jn6uhur)
 - 🐤 [Ravencoin Twitter](https://twitter.com/Ravencoin)
 - 🧠 [Bitcoin Electrum](https://github.com/spesmilo/electrum)
-- 🐶 [Electrum-Doge (original fork)](https://github.com/brdev-c/Electrum-Doge)
 
 ---
 
-> Reforged from Electrum-Doge with ❤️ for the Ravencoin community.
+> ❤️ for the Ravencoin community.
