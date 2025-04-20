@@ -1,39 +1,84 @@
-Electrum-DOGE - lightweight Dogecoin client
+<h1 align="center">🦅 Electrum Ravencoin Wallet</h1>
 
-Licence: GNU GPL v3
-Author: Electrum-DOGE contributors & Thomas Voegtlin
-Language: Python
-Homepage: https://electrum-doge.com
+<p>
+  <img src="https://img.shields.io/badge/Forked%20From-Electrum--Doge-yellow?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Coin-Ravencoin-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Non--Custodial-Yes-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/HD%20Wallet-BIP32%2FBIP39-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Security-Offline%20Signing%20%7C%20Encrypted%20Backups-critical?style=for-the-badge"/>
+</p>
 
+---
 
-1. GETTING STARTED
-------------------
+## 📦 Downloads
 
-To run Electrum from this directory, just do:
+| Platform | Installer | Signature | SHA256 |
+|----------|-----------|-----------|--------|
+| Windows  | [electrum-ravencoin-win.exe](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [EXE.asc](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [EXE.sha256](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) |
+| macOS    | [electrum-ravencoin-mac.dmg](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [DMG.asc](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [DMG.sha256](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) |
+| Linux    | [electrum-ravencoin.AppImage](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [AppImage.asc](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [AppImage.sha256](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) |
 
-  ./electrum-doge
+> ✅ All builds are signed and verifiable via GPG
 
-If you install Electrum on your system, you can run it from any
-directory:
+---
 
-  sudo python setup.py install
-  electrum-doge
+## ✨ Why Electrum Ravencoin?
 
-2. HOW OFFICIAL PACKAGES ARE CREATED
-------------------------------------
+- 🔐 **Non-Custodial** — Your keys, your coins.
+- ⚡ **Fast & Lightweight** — SPV tech ensures quick sync.
+- 🧠 **HD Wallets** — Full support for BIP32 & BIP39 seed phrases.
+- 🧾 **Multi-Signature** — Share control using multi-sig wallets.
+- 📴 **Offline Signing** — Protect your keys with air-gapped security.
+- 🔌 **Hardware Wallet Support** — Compatible with Trezor, Ledger, etc.
+- 🧰 **Cross-Platform** — Works on Windows, macOS, and Linux.
+- 💾 **Encrypted Wallets** — Backup securely and restore anytime.
 
-python mki18n.py
-pyrcc4 icons.qrc -o gui/qt/icons_rc.py
-python setup.py sdist --format=zip,gztar
+---
 
-On Mac OS X:
+## 🛠️ Getting Started
 
-  # On port based installs
-  sudo python setup-release.py py2app
+```bash
+# Clone the repository
+git clone https://github.com/electrum-projects/electrum-ravencoin.git
+cd electrum-ravencoin
 
-  # On brew installs
-  ARCHFLAGS="-arch i386 -arch x86_64" sudo python setup-release.py py2app --includes sip
+# (Optional) create virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-  sudo hdiutil create -fs HFS+ -volname "Electrum-Doge" -srcfolder dist/Electrum-Doge.app dist/electrum-doge-VERSION-macosx.dmg
+# Install dependencies
+pip install -r contrib/requirements/requirements.txt
 
+# Run the wallet
+python electrum-ravencoin
+```
 
+---
+
+## 🧪 Running Tests
+
+```bash
+pytest
+```
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License. See the full license here:  
+📄 [LICENSE](https://github.com/electrum-projects/electrum-ravencoin/blob/main/LICENSE)
+
+---
+
+## 🌐 Resources
+
+- 🌍 [Ravencoin Official Website](https://ravencoin.org)
+- 📘 [Electrum Documentation](https://docs.electrum.org)
+- 💬 [Ravencoin Discord](https://discord.gg/jn6uhur)
+- 🐤 [Ravencoin Twitter](https://twitter.com/Ravencoin)
+- 🧠 [Bitcoin Electrum](https://github.com/spesmilo/electrum)
+- 🐶 [Electrum-Doge (original fork)](https://github.com/brdev-c/Electrum-Doge)
+
+---
+
+> Reforged from Electrum-Doge with ❤️ for the Ravencoin community.
