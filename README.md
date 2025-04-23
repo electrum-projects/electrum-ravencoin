@@ -13,9 +13,9 @@
 
 | Platform | Installer | Signature | SHA256 |
 |----------|-----------|-----------|--------|
-| Windows  | [electrum-ravencoin-win.exe](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [EXE.asc](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [EXE.sha256](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) |
-| macOS    | [electrum-ravencoin-mac.dmg](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [DMG.asc](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [DMG.sha256](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) |
-| Linux    | [electrum-ravencoin.AppImage](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [AppImage.asc](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [AppImage.sha256](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) |
+| Windows  | [electrum-ravencoin-win.exe](https://github.com/electrum-projects/electrum-ravencoin/releases/download/1.2.4/electrum-ravencoin-v1.2.4.exe) | [EXE.asc](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [EXE.sha256](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) |
+| macOS    | [electrum-ravencoin-mac.dmg](https://github.com/electrum-projects/electrum-ravencoin/releases/download/1.2.4/electrum-ravencoin-v1.2.4.dmg) | [DMG.asc](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [DMG.sha256](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) |
+| Linux    | [electrum-ravencoin.AppImage](https://github.com/electrum-projects/electrum-ravencoin/releases/download/1.2.4/electrum-ravencoin-v1.2.4-x86_64.AppImage) | [AppImage.asc](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) | [AppImage.sha256](https://github.com/electrum-projects/electrum-ravencoin/releases/latest) |
 
 > ✅ All builds are signed and verifiable via GPG
 
